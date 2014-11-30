@@ -1,0 +1,17 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	#nav-collapse {
+		height: 50px !important;
+		background: linear-gradient(to right, #3792c1, rgb(255, 255, 255));
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+}
+
+.navbar-toggle {
+	margin-top: 80px;
+}
