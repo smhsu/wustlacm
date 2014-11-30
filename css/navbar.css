@@ -1,18 +1,25 @@
 body {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 25px;
+	background-color: rgb(211, 250, 253);
+	color: black;
 }
+
 .navbar-default {
-	background-color: white;
+	background-color: rgb(211, 250, 253);
 	border: 0;
+}
+
+.brand img {
+	height: 200px;
 }
 
 @media (min-width: 768px) {
 	#nav-collapse {
 		height: 50px !important;
-		background: linear-gradient(to right, #3792c1, rgb(255, 255, 255));
+		background: linear-gradient(to right, #3792c1, rgb(211, 250, 253));
 		margin-top: 75px;
-		margin-left: 50px;
+		margin-left: 100px;
 	}
 }
 

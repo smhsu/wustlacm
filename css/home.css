@@ -7,7 +7,6 @@
 	font-weight: bold;
 }
 
-
 .jumbotron p {
 	font-size: 1.3em;
 }
@@ -20,6 +19,6 @@
 article {
 	margin: 20px;
 	padding: 20px;
-	background-color: #CCFFCC;
+	background-color: #73C6EA;
 	border-radius: 15px;
 }
