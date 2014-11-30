@@ -1,0 +1,7 @@
+.jumbotron {
+	background-image: url('img/circuit.jpg');
+}
+
+.jumbotron h1 {
+	font-size: 2em;
+}
