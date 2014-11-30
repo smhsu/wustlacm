@@ -3,5 +3,23 @@
 }
 
 .jumbotron h1 {
-	font-size: 2em;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+
+.jumbotron p {
+	font-size: 1.3em;
+}
+
+.jumbotron .btn {
+	border: 3px solid grey;
+	margin: 5px
+}
+
+article {
+	margin: 20px;
+	padding: 20px;
+	background-color: #CCFFCC;
+	border-radius: 15px;
 }
