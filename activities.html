@@ -48,7 +48,7 @@
 		
 		<div class="row">
 			<div class="col-sm-9 col-sm-offset-3"/>
-				<h1>Activities</h1>
+				<h1 id="mainheader">Activities</h1>
 			</div>
 		</div>
 		
@@ -66,17 +66,72 @@
 			
 			<div class="col-sm-9 tab-content">
 				<div role="tabpanel" class="tab-pane fade in active" id="home">
-					ACM hosts a variety of regular activities for our members.  To get started, select an activity from the left
-					(or top if you're browsing on mobile).
+					<p>ACM hosts a variety of activities that are open to all.  To get started, select an activity from the left (or top
+					if you're browsing on mobile).</p>
+					
+					<img src="http://placehold.it/450x250" class="img-responsive img-thumbnail center-block" alt="The ACM Lounge"/>
+					
+					<p><i><b>Above</b>: the ACM lounge in Urbauer 114.  It's a good place to hang out with people that know computers,
+					and we have public gaming computers too!</i></p>
 				</div>
-				<div role="tabpanel" class="tab-pane fade" id="competition">...</div>
+				
+				<div role="tabpanel" class="tab-pane fade" id="competition">
+					<h1>Programming Competitions</h1>
+					<p><b>Congratulations to ACM Team Iridium (Joey Woodson, Patrick Chao, and Zuohan Xiahou) winning first place at
+					ICPC regionals!</b></p>
+					<img src="img/winners.jpg" class="img-responsive img-thumbnail center-block" alt="Winners!"/>
+					
+					<p>Good job to everybody who participated!</p>
+					<img src="img/icpc_group.jpg" class="img-responsive img-thumbnail center-block" alt="ACM's ICPC team"/>
+					
+					<h2>Info</h2>
+					<p>Each November, ACM sends teams to compete in the
+					<a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest">International Collegiate
+					Programming Contest (ICPC)</a>.  To help prepare for this undertaking, we have <b>Code and Cookies</b>, a small
+					preparation course that takes place on Fridays from 11:30 - 1:00 in Urbauer 214.  As the name suggests, you get
+					helpful tips on coding and algorithms, AND get cookies!  What's not to like?</p>
+					
+					<h2>A Sample Problem: How many Fibs?</h2>
+					<p>This is an example of the kind of problem that might appear in a programming contest:</p>
+					<p>Credit: Skiena & Revilla - <i>Programming Challenges</i>, Chapter 6</p>
+					<div id="problem">
+						<h3>Intro</h3>
+						<p>Recall the definition of the Fibonacci numbers:</p>
+						<p>
+							f<sub>1</sub> = 1<br>
+							f<sub>2</sub> = 2<br>
+							f<sub>3</sub> = f<sub>n-1</sub> + f<sub>n-2</sub>
+						</p>
+						<p>Given two numbers a and b, calculate how many Fibonacci numbers are in the range [a,b].</p>
+						
+						<h3>Input Specification</h3>
+						<p>The input contains several test cases. Each test case consists of two non-negative integer numbers a and b.
+						Input is terminated by a=b=0. Otherwise, a<=b<=10<sup>100</sup>. The numbers a and b are given with no superfluous
+						leading zeros.</p>
+						
+						<h3>Output Specification</h3>
+						<p>For each test case output on a single line the number of Fibonacci numbers f<sub>i</sub> with a<=f<sub>i</sub><=b.</p>
+						
+						<h3>Sample Input</h3>
+						<p>
+						10 100<br>
+						1234567890 9876543210<br>
+						0 0<br>
+						</p>
+						
+						<h3>Sample Output</h3>
+						<p>
+						5<br>
+						4<br>
+						</p>
+					</div>
+				</div>
 				<div role="tabpanel" class="tab-pane fade" id="T3">...</div>
 				<div role="tabpanel" class="tab-pane fade" id="officehours">...</div>
 				<div role="tabpanel" class="tab-pane fade" id="projectmatching">...</div>
 				<div role="tabpanel" class="tab-pane fade" id="showcase">...</div>
-			</div>
-		</div>
-		
+			</div> <!--End col-sm-9-->
+		</div> <!--End row-->
 	</div> <!--End container-->
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
