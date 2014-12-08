@@ -19,22 +19,34 @@
 	margin: 5px;
 	white-space: normal;
 }
-/*
-.btn-primary {
-	background-color: #57A8D5;
-}*/
 
 article {
-	margin: 20px;
-	padding: 0px 20px 20px 20px;
-	background-color: #73C6EA;
+	margin: 30px 0;
 	border-radius: 15px;
+	padding: 20px;
+	background-color: #73C6EA;
 }
 
 article h2 {
-	font-family: "Helvetica";
-	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
+	
+	font-family: "Garamond", "Times New Roman", serif;
 	font-weight: bold;
-	background-color: green;
-	box-sizing: border-box;
+}
+
+.glyphicon {
+	margin-right: 15px;
+}
+
+.time, .loc {
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: rgb(66, 139, 202);
+	background: linear-gradient(to right, rgb(66, 139, 202), #73C6EA);
+	
+	font-family: "Garamond", "Times New Roman", serif;
+	font-weight: bold;
 }

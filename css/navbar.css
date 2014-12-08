@@ -24,6 +24,7 @@ body {
 @media (min-width: 768px) {
 	#nav-collapse {
 		height: 50px !important;
+		background-color: rgb(160, 216, 237);
 		background: linear-gradient(to right, #57A8D5, rgb(211, 250, 253));
 		margin-top: 75px;
 		margin-left: 100px;
