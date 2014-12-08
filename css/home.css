@@ -1,25 +1,40 @@
 .jumbotron {
 	background-image: url('../img/circuit.jpg');
+	padding: 30px;
+	border: 3px solid grey;
 }
 
 .jumbotron h1 {
-	font-size: 4em;
+	font-size: 2em;
 	font-weight: bold;
 }
 
 .jumbotron p {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .jumbotron .btn {
+	font-size: 1.2em;
 	border: 3px solid grey;
 	margin: 5px;
 	white-space: normal;
 }
+/*
+.btn-primary {
+	background-color: #57A8D5;
+}*/
 
 article {
 	margin: 20px;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
 	background-color: #73C6EA;
 	border-radius: 15px;
+}
+
+article h2 {
+	font-family: "Helvetica";
+	font-size: 2em;
+	font-weight: bold;
+	background-color: green;
+	box-sizing: border-box;
 }

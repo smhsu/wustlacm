@@ -27,3 +27,7 @@ h1 {
 	font-size: 1em;
 	font-weight: bold;
 }
+
+#project-matching-img {
+	max-height: 150px;
+}

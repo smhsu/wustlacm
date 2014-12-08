@@ -1,8 +1,15 @@
+/*
+Contrary to the file name, contains not only navbar css, but css that applies
+to all pages on the site.
+*/
+
 body {
     padding-top: 25px;
     padding-bottom: 40px;
 	background-color: rgb(211, 250, 253);
 	color: black;
+	
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
 }
 
 .navbar-default {
@@ -27,8 +34,19 @@ body {
 	margin-top: 80px;
 }
 
+.navbar a {
+	height: 50px;
+	font-size: 15px;
+}
+
+.navbar a:hover {
+	border: 3px solid #6EB4D8;
+	padding-top: 13px;
+}
+
 #active {
 	color: black;
 	background: transparent;
-	border: 3px solid #3792c1
+	border: 3px solid #3792c1;
+	padding-top: 13px;
 }
