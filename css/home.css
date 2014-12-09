@@ -20,6 +20,10 @@
 	white-space: normal;
 }
 
+#news-heading {
+	margin-top: 75px;
+}
+
 article {
 	margin: 30px 0;
 	border-radius: 15px;
@@ -32,8 +36,10 @@ article h2 {
 	margin-bottom: 20px;
 	border-bottom: 2px solid black;
 	
-	font-family: "Garamond", "Times New Roman", serif;
+	font-size: 1.8em;
+	font-family: "Century Gothic", Arial, sans-serif;
 	font-weight: bold;
+	font-style: italic;
 }
 
 .glyphicon {
@@ -47,6 +53,5 @@ article h2 {
 	background-color: rgb(66, 139, 202);
 	background: linear-gradient(to right, rgb(66, 139, 202), #73C6EA);
 	
-	font-family: "Garamond", "Times New Roman", serif;
 	font-weight: bold;
 }

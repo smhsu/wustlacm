@@ -40,7 +40,7 @@ body {
 	font-size: 15px;
 }
 
-.navbar a:hover {
+.navbar-collapse a:hover {
 	border: 3px solid #6EB4D8;
 	padding-top: 13px;
 }

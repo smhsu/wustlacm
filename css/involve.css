@@ -1,4 +1,18 @@
+#mainheader {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+h3 {
+	margin-top: 30px;
+	
+	font-family: "Century Gothic", Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
 form {
 	border: 2px solid black;
-	padding: 20px;
+	padding: 30px;
 }

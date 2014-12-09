@@ -9,6 +9,7 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/navbar.css" rel="stylesheet">
+	<link href="css/home.css" rel="stylesheet">
 	<link href="css/activities.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,7 +47,7 @@
 		</nav>
 		
 		<div class="row">
-			<div class="col-sm-9 col-sm-offset-3"/>
+			<div class="col-sm-9 col-sm-offset-3">
 				<h1 id="mainheader">Activities</h1>
 			</div>
 		</div>
@@ -74,26 +75,26 @@
 				</div>
 				
 				<div role="tabpanel" class="tab-pane fade" id="competition">
-					<h1>Programming Competitions</h1>
-					<p><b>Congratulations to ACM Team Iridium (Joey Woodson, Patrick Chao, and Zuohan Xiahou) winning first place at
-					ICPC regionals!</b></p>
+					<h2 class="tab-heading">Programming Competitions</h2>
+					<p><b>Congratulations</b> to ACM Team Iridium (Joey Woodson, Patrick Chao, and Zuohan Xiahou) winning <b>first place</b>
+					at ICPC regionals!</p>
 					<img src="img/winners.jpg" class="img-responsive img-thumbnail center-block" alt="Winners!"/>
 					
-					<p>Good job to everybody who participated!</p>
+					<p>And good job to everybody who participated too!</p>
 					<img src="img/icpc_group.jpg" class="img-responsive img-thumbnail center-block" alt="ACM's ICPC team"/>
 					
-					<h2>Info</h2>
+					<h3>Info</h3>
 					<p>Each November, ACM sends teams to compete in the
 					<a href="http://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest">International Collegiate
 					Programming Contest (ICPC)</a>.  To help prepare for this undertaking, we have <b>Code and Cookies</b>, a small
 					preparation course that takes place on Fridays from 11:30 - 1:00 in Urbauer 214.  As the name suggests, you get
 					helpful tips on coding and algorithms, AND get cookies!  What's not to like?</p>
 					
-					<h2>A Sample Problem: How many Fibs?</h2>
+					<h3>A Sample Problem: How many Fibs?</h3>
 					<p>This is an example of the kind of problem that might appear in a programming contest:</p>
 					<p>Credit: Skiena & Revilla - <i>Programming Challenges</i>, Chapter 6</p>
 					<div id="problem">
-						<h3>Intro</h3>
+						<h6>Intro</h6>
 						<p>Recall the definition of the Fibonacci numbers:</p>
 						<p>
 							f<sub>1</sub> = 1<br>
@@ -102,22 +103,22 @@
 						</p>
 						<p>Given two numbers a and b, calculate how many Fibonacci numbers are in the range [a,b].</p>
 						
-						<h3>Input Specification</h3>
+						<h6>Input Specification</h6>
 						<p>The input contains several test cases. Each test case consists of two non-negative integer numbers a and b.
 						Input is terminated by a=b=0. Otherwise, a<=b<=10<sup>100</sup>. The numbers a and b are given with no superfluous
 						leading zeros.</p>
 						
-						<h3>Output Specification</h3>
+						<h6>Output Specification</h6>
 						<p>For each test case output on a single line the number of Fibonacci numbers f<sub>i</sub> with a<=f<sub>i</sub><=b.</p>
 						
-						<h3>Sample Input</h3>
+						<h6>Sample Input</h6>
 						<p>
 						10 100<br>
 						1234567890 9876543210<br>
 						0 0<br>
 						</p>
 						
-						<h3>Sample Output</h3>
+						<h6>Sample Output</h6>
 						<p>
 						5<br>
 						4<br>
@@ -125,34 +126,37 @@
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="T3">
-					<h1>Thursday Tech Talks</h1>
-					<p><span class="glyphicon glyphicon-calendar"> <i><b>Usual</b></i> Time: Thursdays, 6:30 pm</span></p>
-					<p><span class="glyphicon glyphicon-globe"> <i><b>Usual</b></i> Location: Gregg Technology Classroom</span></p>
-					<p>Each Thursday, ACM hosts a talk or activity related to computing or the tech industry.  And not only that,
-					<b>we feed you too!</b></p>
+					<article>
+						<h2>Thursday Tech Talks</h2>
+						<div class="time"><span class="glyphicon glyphicon-calendar"></span> <i>Usual</i>  time: Thursdays, 6:30 pm</div>
+						<div class="loc"><span class="glyphicon glyphicon-globe"></span> <i>Usual</i>  location: Gregg Technology Classroom</div>
+						<p>Each Thursday, ACM hosts a talk or activity related to computing or the tech industry.  And not only that,
+						<b>we feed you too!</b></p>
+					</article>
 					
-					<h3>Examples of talks that we have done in the past:</h3>
+					<h3>Examples of past talks:</h2>
 					
-					<p><b>Microsoft T3</b></p>
+					<h6>Microsoft T3</h6>
 					<p>Microsoft came to give a presentation on the technical problems they are solving, as well as doing an internship for them.
 					They also gave out cool prizes for everyone!</p>
 					<img src="img/microsoft1.jpg" class="img-responsive center-block img-thumbnail" alt="Microsoft T3"/>
 					<img src="img/microsoft2.jpg" class="img-responsive center-block img-thumbnail" alt="Microsoft T3"/>
 					
-					<p><b>Game Jam</b></p>
+					<h6>Game Jam</h6>
 					<p>Sam and Seth Coster gave a presentation on how to build games. They introduced game engines and their game-building process,
-					emphasizing how assessable game design was to the average person.  One such "quick and dirty" game was Hot Spuds <i>(second picture)</i> - 
-					three pats of butter to win!</p>
+					emphasizing how assessable game design was to the average person.</p>
 					<img src="img/gamejam1.jpg" class="img-responsive center-block img-thumbnail" alt="Game Jam"/>
+					
+					<p>One such "quick and dirty" game was Hot Spuds <i>(below)</i> - three pats of butter to win!</p>
 					<img src="img/gamejam2.jpg" class="img-responsive center-block img-thumbnail" alt="Game Jam"/>
 					
-					<p><b>Course registration discussion</b></p>
+					<h6>Course registration discussion</h6>
 					<p>Every semester, ACM holds a course registration discussion to help people decide which computer science classes to register for.
 					We present course characteristics, including but not limited to the professor, his/her teaching style, the workload and the difficulty.
 					Finally, it's a great opportunity to get some one-on-one advice!</p>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="officehours">
-					<h1>ACM Office Hours</h1>
+					<h2 class="tab-heading">ACM Office Hours</h2>
 					<p><b>All office hours are held in the ACM lounge</b></p>
 					<p>Are your computer science classes driving you crazy?  Want to find your TAs and professor, but they are
 					never available at a convenient time?  Come to ACM office hours!</p>
@@ -172,7 +176,7 @@
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="projectmatching">
-					<h1>ACM Project Matching</h1>
+					<h2 class="tab-heading">ACM Project Matching</h2>
 					<img class="img-responsive center-block" src="img/projectmatching.png" id="project-matching-img"/>
 					<h3>I need a project</h3>
 					<p>Finding a job can be hard, especially if you have little "real world", out of class experience.  Tech companies

@@ -1,11 +1,32 @@
 #mainheader {
 	margin-bottom: 50px;
 	border-bottom: 2px solid black;
-	font-size: 3em;
 }
 
-h1 {
+.nav-pills {
+	margin-bottom: 30px;
+}
+
+.tab-heading {
 	margin-top: 0;
+	margin-bottom: 30px;
+	
+	font-family: "Century Gothic", Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h3 {
+	margin-top: 40px;
+
+	font-family: "Century Gothic", Arial, sans-serif;
+	font-weight: bold;
+}
+
+h6 {
+	margin-top: 40px;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 .img-responsive {
@@ -13,19 +34,15 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.nav-pills {
-	margin-bottom: 30px;
-}
-
 #problem {
-	font-family: "Times New Roman", serif;
 	border: 2px solid black;
-	padding: 20px;
+	padding: 0 20px 20px 20px;
+	
+	font-family: "Times New Roman", serif;
 }
 
-#problem h3 {
-	font-size: 1em;
-	font-weight: bold;
+article { /* For the article under Thursday Tech Talks */
+	margin-top: 0;
 }
 
 #project-matching-img {
